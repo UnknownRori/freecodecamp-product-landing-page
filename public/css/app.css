@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    transition: 100ms;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+}
+
+.flex-box {
+    display: inline-flex;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.company-logo {
+    margin-top: 80px !important;
+    margin-left: 43%;
+    transition: 1s;
+}
+
+@media (min-width: 720px) {
+    .company-logo:hover {
+        transform: scale(1.2);
+    }
+}
